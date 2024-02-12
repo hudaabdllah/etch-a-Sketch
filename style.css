@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.2rem solid red;
+    flex-shrink: 0;
+}
+
+.divs{
+    height: auto;
+    width: auto;
+    transition: ease 3s all;
+    border: 0.01rem solid rgb(82, 79, 79);
+}
+
+
+
